@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Libro - Autorii tai preferati intr-un singur loc</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header id="header">
+      <div class="info">
+        <p>
+          <i class="fa-solid fa-shipping-fast"></i> Livrare gratuita la toate
+          comenzile peste 199 Lei!
+        </p>
+      </div>
+      <div class="main">
+        <div class="logo">
+          <a class="logo" href="#">Libro</a>
+        </div>
+        <div class="search">
+          <div class="input-group">
+            <span class="icon"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></span>
+            <input type="text" placeholder="Ce carte cauți astăzi?" />
+          </div>
+        </div>
+        <div class="links">
+          <a class="link" href="#">
+            <i class="fa-solid fa-user"></i>
+            Cont
+          </a>
+          <a class="link" href="#">
+            <i class="fa-solid fa-basket-shopping"></i>
+            Cos
+          </a>
+          <a class="link" href="#">
+            <i class="fa-solid fa-heart"></i>
+            Favorite
+          </a>
+        </div>
+      </div>
+      <nav class="categories">
+        <a class="category" href="#">Dragoste</a>
+        <a class="category" href="#">Ficțiune</a>
+        <a class="category" href="#">Biografii și memorii</a>
+        <a class="category" href="#">Istorie</a>
+        <a class="category" href="#">Business, economie, finanțe</a>
+        <a class="category" href="#">Gastonomie</a>
+        <a class="category" href="#">Artă, arhitectură, fotografie</a>
+        <a class="category" href="#">Audiobooks</a>
+        <a class="category" href="#">Pentru Copii</a>
+        <a class="category" href="#">Dezvoltare personală</a>
+        <a class="category" href="#">Medicină</a>
+      </nav>
+    </header>
+    <!-- Hero -->
+    <section id="hero">
+      <div class="overlay">
+        <div class="description">
+          <h1 class="title">Pandora - Susan Stokes</h1>
+          <q class="quote"
+            >O poveste despre mit si secrete, tradare si mister, destin si
+            speranta.</q
+          >
+          <a class="order" href="#">Comanda acum</a>
+        </div>
+        <img class="book" src="./assets/hero-book.jpg" />
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="promo" class="products-section">
+      <h2 class="title">Promotii</h2>
+      <div class="products">
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/the-forevers.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">The Forevers</h3>
+            <p class="author">de Chris Whitaker</p>
+            <p class="description">
+              They knew the end was coming. They saw it ten years back, when it
+              was far enough away in space and time and meaning...
+            </p>
+            <p class="price">49<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/asian-ghost.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Asian ghost short stories</h3>
+            <p class="author">-</p>
+            <p class="description">
+              Another deluxe edition of new writing and neglected perspectives.
+              Asian ghosts and supernatural beings - from India to Sri Lank...
+            </p>
+            <p class="price">28<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/atomic-habits.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Atomic habits</h3>
+            <p class="author">de James Clear</p>
+            <p class="description">
+              Inspirându-se din cele mai noi descoperiri din biologie,
+              psihologie și neuroștiințe, James Clear a conceput un ghid ușor de
+              asimilat...
+            </p>
+            <p class="price">60<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart">
+              <i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/time-magicians.jpeg" /></div
+          ></a>
+          <div class="details">
+            <div class="about">
+              <h3 class="title">Time of the magicians</h3>
+              <p class="author">de Wolfram Eilenberger</p>
+              <p class="description">
+                The year is 1919. Walter Benjamin flees his overbearing father
+                to scrape a living as a critic. Ludwig Wittgenstein, scion of
+                one of Europe's wealthiest...
+              </p>
+            </div>
+            <p class="price">35<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="products-section">
+      <h2 class="title">Noutati</h2>
+      <div class="products">
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/totul-incepe-cu-noi.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Totul incepe cu noi</h3>
+            <p class="author">de Colleen Hoover</p>
+            <p class="description">
+              Lily si Ryle si-au gasit, in cele din urma, echilibrul in viata si
+              impart, in mod civilizat, custodia asupra fiicei lor, Emerson.
+              Acum, la doi ani...
+            </p>
+            <p class="price">35<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/cel-mai-bogat.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Cel mai bogat om din Babilon</h3>
+            <p class="author">de George S. Clason</p>
+            <p class="description">
+              Cele 7 parabole a caror actiune se petrece in Babilon - orasul cel
+              mai bogat din lumea antica, ai carui locuitori pretuiau banii si
+              urmau...
+            </p>
+            <p class="price">30<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/primavara-in-toscana.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Primavara in Toscana</h3>
+            <p class="author">de Santa Motefiore</p>
+            <p class="description">
+              Cand Gracie Burton afla ca la Castello Montefosco, in zona rurala
+              a Toscanei, se organizeaza un curs de arta culinara de o
+              saptamana...
+            </p>
+            <p class="price">35<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/negustorul-de-fericire.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Negustorul de Fericire</h3>
+            <p class="author">de Davide Cali</p>
+            <p class="description">
+              O carte fără vârstă, cu o temă universală. O carte de răsfoit, de
+              admirat și de citit iar și iar. “Negustorul de fericire” poate...
+            </p>
+            <p class="price">59<sup>99</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="discover" class="products-section">
+      <h2 class="title">Descopera</h2>
+      <div class="products">
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/sa-ma-intorc-acasa.jpg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Sa ma intorc Acasa</h3>
+            <p class="author">de Alexandra Svet</p>
+            <p class="description">
+              Astazi as imbraca-o pe Mariuca in costum popular, i-as pune
+              opincute, o broboada rosie cu flori, o bundita groasa si as
+              sui-o...
+            </p>
+            <p class="price">45<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/casa-de-pe-riviera.jpg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Casa de pe Riviera</h3>
+            <p class="author">de Natasha Lester</p>
+            <p class="description">
+              1939: Nazistii cred ca Eliane nu intelege limba germana, nefacand
+              altceva decat sa catalogheze operele de arta din Luvru si neavand
+              habar...
+            </p>
+            <p class="price">52<sup>30</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/cand-stelele-se-intuneca.jpg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Cand stelele se intuneca</h3>
+            <p class="author">de Paula McLain</p>
+            <p class="description">
+              Bestseller New York Times 2021, ales de editorii Amazon printre
+              "Best Books 2021 So Far", Cand stelele se intuneca este cea mai...
+            </p>
+            <p class="price">36<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/toate-vietile.jpg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Toate vietile pe care nu le-am trait</h3>
+            <p class="author">de Anuradha Roy</p>
+            <p class="description">
+              Penduland intre splendoarea peisajelor de la poalele Muntilor
+              Himalaya si jungla luxurianta din Bali...
+            </p>
+            <p class="price">39<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/romeo-si-julieta.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Romeo si Julieta</h3>
+            <p class="author">de William Shakespeare</p>
+            <p class="description">
+              Romeo si Julieta este o tragedie de William Shakespeare despre
+              soarta a doi indragostiti care lupta impotriva destinului...
+            </p>
+            <p class="price">16<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/tandra-e-noaptea.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Tandra e noaptea</h3>
+            <p class="author">de F. Scott Fitzgerald</p>
+            <p class="description">
+              Adeseori sunt remarcate similitudinile dintre cuplul format de
+              personajele Nicole și Dick Diver și cel alcătuit din autor și
+              soția sa...
+            </p>
+            <p class="price">52<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/la-umbra-fetelor.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">La umbra fetelor in floare</h3>
+            <p class="author">de Marcel Proust</p>
+            <p class="description">
+              „Proust a ştiut să adapteze puterile unei vieţi interioare
+              deosebit de bogate şi meșteșugit lucrate la expresia unei mici...
+            </p>
+            <p class="price">36<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/jumatate-de-secol.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Jumatate de secol cu Borges</h3>
+            <p class="author">de Mario Vargas Llosa</p>
+            <p class="description">
+              Articolele, interviurile, conferințele și însemnările reunite în
+              acest volum sunt mărturia a peste cincizeci de ani de lectură...
+            </p>
+            <p class="price">29<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/the-sweet-spot.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">The sweet spot</h3>
+            <p class="author">de Paul Bloom</p>
+            <p class="description">
+              Revealing the surprising roots of lasting happiness, The Sweet
+              Spot by pre-eminent psychologist Paul Bloom explains why
+              suffering...
+            </p>
+            <p class="price">65<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/am-i-normal.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Am I normal?</h3>
+            <p class="author">de Sarah Chaney</p>
+            <p class="description">
+              Before the nineteenth century, the term normal was rarely ever
+              associated with human behaviour. Normal was a term used in
+              maths...
+            </p>
+            <p class="price">114<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/nothing-burns.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Nothing burns as bright as you</h3>
+            <p class="author">de Ashley Woodfolk</p>
+            <p class="description">
+              Now in paperback, from New York Times bestselling author Ashley
+              Woodfolk, Nothing Burns as Bright as You is an impassioned
+              stand-alone...
+            </p>
+            <p class="price">58<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/forget-me-not.jpeg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Forget me not</h3>
+            <p class="author">de Alisson Derrick</p>
+            <p class="description">
+              This tender solo debut by Alyson Derrick, co-author of New York
+              Times bestseller She Gets the Girl, is perfect for fans of Eternal
+              Sunshine of the...
+            </p>
+            <p class="price">39<sup>00</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><div class="image">
+              <img src="./assets/products/pandora.jpg" /></div
+          ></a>
+          <div class="details">
+            <h3 class="title">Pandora</h3>
+            <p class="author">de Susan Stokes</p>
+            <p class="description">
+              “Pandora” is a historical fiction gem, the debut novel by author
+              Susan Stokes-Chapman. Set in London in 1799, Chapman's novel
+              manages to merge Greek mythology ...
+            </p>
+            <p class="price">44<sup>99</sup> Lei</p>
+          </div>
+          <div class="actions">
+            <a href="#" class="add-to-cart"
+              ><i class="fa-solid fa-bag-shopping"></i> Adauga in cos</a
+            >
+            <a href="#" class="add-to-wishlist"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter">
+      <h2 class="title">
+        Vrei sa primesti noutati si oferte personalizate? Aboneaza-te la
+        Newsletter!
+      </h2>
+      <form class="form">
+        <div class="input-group">
+          <span class="icon"><i class="fa-solid fa-user"></i></span>
+          <input
+            type="text"
+            placeholder="ex: Ionescu Mihnea"
+            name="name"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+          <input
+            type="email"
+            placeholder="ex: ionescu.mihnea@gmail.com"
+            name="mail"
+            required
+          />
+        </div>
+        <a class="submit" href="#">Aboneaza-te</a>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-grid">
+        <div class="footer-left">
+          <a class="logo" href="#">Libro</a>
+          <p class="description">
+            Cu o experienta de peste 19 ani, Libro redefinește așteptările pe
+            care le avem de la o librărie.
+          </p>
+          <div class="contact">
+            <ul>
+              <li class="company">SC Libro Shop SRL</li>
+              <li class="address">str. Cartilor 14a, Bucuresti</li>
+              <li class="phone"><a href="tel:+40754525369">0754525369</a></li>
+              <li class="hours">Luni-Vineri: 9.00 - 18.00</li>
+            </ul>
+          </div>
+          <div class="social-media"></div>
+        </div>
+        <div class="footer-center">
+          <div class="title">
+            <p>Link-uri Utile</p>
+          </div>
+          <div class="links">
+            <ul>
+              <li><a href="#">Despre noi</a></li>
+              <li><a href="#">Cum Cumpar?</a></li>
+              <li><a href="#">Livrare si Retur</a></li>
+              <li><a href="#">Termeni si Conditii</a></li>
+              <li><a href="#">Politica de confidentialitate</a></li>
+              <li><a href="#">ANPC</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-right">
+          <div class="payment-methods">
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-paypal"></i>
+            <i class="fa-brands fa-bitcoin"></i>
+          </div>
+          <div class="reviews">
+            <p>
+              Peste <strong> 120.000 </strong> cumpărători <br />
+              <strong>4,9 / 5</strong>, 4793 recenzii
+            </p>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <hr />
+        <p>© 2023 Libro.ro - All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
